@@ -4,7 +4,6 @@ from langchain import PromptTemplate, LLMChain
 from langchain.llms import GooglePalm
 
 import requests
-import os
 import streamlit as st
 
 load_dotenv(find_dotenv())
