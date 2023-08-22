@@ -1,13 +1,14 @@
-from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import GooglePalm
 
 import requests
+import os
 import streamlit as st
 
-load_dotenv(find_dotenv())
+
 os.environ["GOOGLE_API_KEY"] = "AIzaSyD29fEos3V6S2L-AGSQgNu03GqZEIgJads"
+os.environ ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 llm = GooglePalm(temperature = 0.7)
 
