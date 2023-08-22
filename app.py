@@ -1,7 +1,8 @@
 from transformers import pipeline
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import GooglePalm
-
+import tensorflow
+import torch
 import requests
 import os
 import streamlit as st
