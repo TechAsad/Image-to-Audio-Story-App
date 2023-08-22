@@ -1,6 +1,8 @@
 tensorflow
+transformers
+torch
 requests
 langchain
 streamlit
 google.generativeai
-transformers
+
