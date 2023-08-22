@@ -2,6 +2,5 @@ requests
 langchain
 streamlit
 google.generativeai
-os
 transformers
 dotenv
