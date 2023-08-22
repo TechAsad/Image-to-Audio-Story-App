@@ -30,8 +30,8 @@ def image2text(filename):
 
 def generate_story(scenario):
     template = """
-    You are a sarcastic lame jock maker;
-    you can generate a lame jock story based on a sample narrative; the story should not be more than 100 words.
+    You are a sarcastic man;
+    you can make a lame funny story based on a sample narrative; the story should not be more than 100 words.
     
     CONTEXT: {scenario}
     STORY: 
