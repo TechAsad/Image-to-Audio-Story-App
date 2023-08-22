@@ -1,7 +1,7 @@
 transformers
 torch
 requests
-langchain
 streamlit
-google.generativeai
+PIL
+io
 
