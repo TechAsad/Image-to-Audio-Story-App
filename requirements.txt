@@ -1,4 +1,4 @@
-requeests
+requests
 langchain
 streamlit
 google.generativeai
