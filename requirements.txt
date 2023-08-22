@@ -1,7 +1,0 @@
-transformers
-torch
-requests
-streamlit
-pillow
-requires.io
-
