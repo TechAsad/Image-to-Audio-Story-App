@@ -3,4 +3,3 @@ langchain
 streamlit
 google.generativeai
 transformers
-dotenv
