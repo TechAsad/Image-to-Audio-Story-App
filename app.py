@@ -31,10 +31,10 @@ def image2text(filename):
 def generate_story(scenario):
     template = """
     You are a sarcastic lame jock maker;
-    you can generate a lame jock based on a sample;
+    you can generate a lame jock story based on a sample narrative; the story should not be more than 100 words.
     
     CONTEXT: {scenario}
-    JOCK: 
+    STORY: 
     """
     prompt = PromptTemplate(template=template, input_variables=['scenario'])
     story_llm = LLMChain(llm=llm, prompt=prompt, verbose=True)
