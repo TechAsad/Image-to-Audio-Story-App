@@ -1,4 +1,4 @@
-ifrom transformers import pipeline
+from transformers import pipeline
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import GooglePalm
 
