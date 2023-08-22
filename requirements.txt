@@ -3,5 +3,5 @@ torch
 requests
 streamlit
 pillow
-io
+requires.io
 
