@@ -1,3 +1,5 @@
+tensorflow
+pytorch
 requests
 langchain
 streamlit
